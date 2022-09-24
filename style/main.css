@@ -1,0 +1,34 @@
+.img01{
+    width: 50%;
+}
+.parallax{
+    position: relative;
+    background: url(../img/sonrisas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 60vh;
+}
+.cont-parallax{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+}
+.text-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.botonera{
+    float: right;
+    margin-right: 10%;
+}
+#menu{
+    display: none;
+}
+@media (max-width: 1000px){
+    .botonera{
+        float: none;
+        position: relative;
+        left: -150%;
+    }
+    #menu{
+        display: block;
+    }
+    .botonera ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: rgb(113, 169, 224);
+        z-index: 100;
+        top: 140px;
+        width: 100%;
+    }
+    .botonera a{
+        border-bottom: 5px solid darkblue;
+    }
+    .botonera-open{
+        left: 5%;
+    }
+    span{
+        font-size: 36px;
+        margin: 15px 7%;
+        float: right;
+    }
+    header h1{
+        font-size: 24px;
+        margin-top: 15px;
+    }
+}
